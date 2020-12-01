@@ -1,0 +1,463 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+* {
+	box-sizing: border-box;
+}
+
+
+
+body.dark {
+    background: #292C35;
+    color: whitesmoke;
+}
+
+.checkbox {
+	opacity: 0;
+	position: absolute;
+}
+
+.label {
+	background-color: #111;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+    height: 26px;
+    width: 50px;
+    transform: scale(0.9);
+    float: right;
+    top: 2px;
+    margin-right: 2px;
+}
+
+.label .ball {
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	height: 22px;
+	width: 22px;
+}
+
+
+
+
+.fa-moon-o {
+	color: #f1c40f;
+}
+
+.fa-sun-o {
+	color: #f39c12;
+}
+
+
+
+
+
+
+
+li{
+    list-style: none;
+}
+.slide_bar{
+    position: fixed;
+    background:rgb(55,72,82);
+    width: 16%;
+    height: 100%;
+   
+}
+.nav_slide{
+    height: auto;
+    width: auto;
+    background: rgb(39,49,49);
+}
+.my_avt
+{
+    width: auto;
+    margin-top: -34px;
+}
+.my_avt > img{
+    display: block;
+    max-width: 150%;
+    margin-left: -71px;
+}
+#my_name{
+    text-align: center;
+    color: white;
+    font-size: 21px;
+    margin-top: -68px;
+}
+.text-info
+{
+    border-top: 1px solid white;
+}
+.text-info > h2{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+.infor >ul >li {
+    margin-bottom: 10px;
+    
+}
+.infor > ul > li >span{
+    padding-right: 10px;
+    color : white;
+}
+.list_contacts{
+    margin-left: 10px;
+    margin-top: 10px;
+    color : #dfdfdf;
+}
+.list_contacts  #email{
+    padding-right: 5px;
+}
+
+.introduce{
+    float: right;
+    width: 84%;
+}
+#border{
+    border-bottom: 3px solid pink;
+    width: 19px;
+    position: absolute;
+    right: 162px;
+
+}
+.text-objecttive 
+{
+    border-top: 1px solid white;
+
+}
+.text-objecttive > h2 {
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    margin-right: 28px;
+}
+.objective > p{
+    color : #dfdfdf;
+    margin-top: 14px;
+    padding-left: 7px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.text-interests
+{
+    border-top: 1px solid white;
+
+}
+.text-interests > h2 {
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    margin-right: 28px;
+}
+.interests > ul{
+    padding-left: 10px;
+    color : #dfdfdf;
+}
+.interests > ul >li{
+    margin-top: 10px;
+}
+#education{
+    font-size: 31px;
+    padding-left: 10px;
+}
+.text-education > img {
+    width: 30px;
+}
+.text-education > h5{
+    font-size: 17px;
+}
+.text-education >p{
+    font-size: 15px;
+}
+.information-education{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 11px;
+}
+.year-education{
+    margin-top: -6px;
+} 
+.year-education > h5 {
+    font-size: large;
+    padding-right: 30px;
+}
+.experience{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+margin-left: 10px;
+}
+.Exp{
+        margin-top: 10px;
+    margin-left: 10px;
+    font-size: 26px;
+}
+.year-experience{
+    font-size: 24px;
+    height: 10px;
+    padding-top: 12px;
+}
+.year-experience >h5 {
+    font-size: large;
+    padding-right: 30px;
+}
+.text-content{
+    padding-left: 10px;
+}
+.taken-project
+{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.year-taken-project > h5{
+    font-size: large;
+    padding-right: 30px;
+}
+.title-Skill{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.text-Skill >h5{
+    padding-left: 10px;
+    font-size: 18px;
+}
+.year-Skill > h5 {
+    font-size: large;
+    padding-right: 70px;
+}
+
+@media only screen and (max-width: 768px) {
+    .slide_bar{
+        position: fixed;
+        background:rgb(55,72,82);
+        width: 30%;
+        height: 100%;
+       
+    }
+    .my_avt > img {
+        display: block;
+        max-width: 152%;
+        margin-left: -68px;
+        margin-top: 10px;
+    }
+    #my_name {
+        text-align: center;
+        color: white;
+        font-size: 18px;
+        margin-top: -65px;
+    }
+    .text-info > h2 {
+        text-align: center;
+        margin-top: 10px;
+        color: white;
+        font-size: 21px;
+        }
+    .list_contacts {
+        margin-left: 12px;
+        margin-top: 10px;
+        color: #dfdfdf;
+        font-size: 16px;
+    }
+    .text-objecttive > h2 {
+        text-align: center;
+        margin-top: 10px;
+        color: white;
+        margin-right: 35px;
+        font-size:17px
+    }
+    .objective > p {
+        color: #dfdfdf;
+        margin-top: 5px;
+        padding-left: 7px;
+        height: auto;
+        margin-bottom: 10px;
+        font-size: 17px;
+    }
+    #border {
+        border-bottom: 3px solid pink;
+        width: 19px;
+        position: absolute;
+        right: 147px;
+    }
+    .text-interests > h2 {
+        text-align: center;
+        margin-top: 10px;
+        color: white;
+        margin-right: 39px;
+        font-size: 17px;
+    }
+    .interests > ul {
+        padding-left: 10px;
+        color: #dfdfdf;
+        font-size: 17px;
+    }
+    .introduce {
+        float: right;
+        width: 71%;
+    }
+    .year-education > h5 {
+        font-size: large;
+        padding-right: 4px;
+        font-size: 15px;
+    }
+    .year-experience > h5 {
+        font-size: large;
+        padding-right: 4px;
+        font-size: 15px;
+    }
+    .Exp {
+        margin-top: 10px;
+        margin-left: 10px;
+        font-size: 18px;
+    }
+    #education {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .text-education{
+        margin-top: -7px;
+    }
+    .text-taken-project{
+        font-size: 18px;
+    }
+    .year-taken-project > h5 {
+        font-size: small;
+        padding-right: 14px;
+    }
+    .year-Skill > h5 {
+        font-size: small;
+        padding-right: 28px;
+        margin-top: -22px;
+    }
+    .text-education > h5 {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .slide_bar{
+        position: fixed;
+        background:rgb(55,72,82);
+        width: 30%;
+        height: 100%;
+       
+    }
+    .my_avt > img {
+        display: block;
+        max-width: 225%;
+        margin-left: -76px;
+        margin-top: 14px;
+    }
+    #my_name {
+        text-align: center;
+        color: white;
+        font-size: 11px;
+        margin-top: -50px;
+    }
+    .text-info > h2 {
+            text-align: center;
+            margin-top: 10px;
+            color: white;
+            font-size: 17px;
+            
+        }
+    .list_contacts {
+        color: #dfdfdf;
+        font-size: 8px;
+        margin-left: 2px;
+    }
+    .text-objecttive > h2 {
+        text-align: center;
+        margin-top: 10px;
+        color: white;
+        margin-right: 11px;
+        font-size:17px
+    }
+    .objective > p {
+        color: #dfdfdf;
+        margin-top: 5px;
+        padding-left: 3px;
+        height: auto;
+        margin-bottom: 10px;
+        font-size: 11px;
+    }
+    .text-interests > h2 {
+        text-align: center;
+        margin-top: 10px;
+        color: white;
+        margin-right: 20px;
+        font-size: 17px;
+    }
+    .interests > ul {
+        font-size: 11px;
+        margin-left: -8px;
+    }
+    .introduce {
+        float: right;
+        width: 71%;
+    }
+    .year-education > h5 {
+        font-size: large;
+        padding-right: 4px;
+        font-size: 15px;
+    }
+    .year-experience > h5 {
+        font-size: large;
+        padding-right: 4px;
+        font-size: 15px;
+    }
+    .Exp {
+        margin-top: 10px;
+        margin-left: 10px;
+        font-size: 18px;
+    }
+    #education {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .text-education{
+        margin-top: -7px;
+    }
+    .text-taken-project{
+        font-size: 18px;
+    }
+    .year-taken-project > h5 {
+        font-size: small;
+        padding-right: 14px;
+    }
+    .year-Skill > h5 {
+        font-size: small;
+        padding-right: 28px;
+    }
+    .experience {
+        display: flex;
+        justify-content: space-between;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .year-experience {
+        font-size: 24px;
+        height: 10px;
+        padding-top: 1px;
+    }
+    .infor > ul > li > span {
+        padding-right: 5px;
+        color: white;
+    }
+}
