@@ -361,7 +361,7 @@ margin-left: 10px;
     .my_avt > img {
         display: block;
         max-width: 225%;
-        margin-left: -76px;
+        margin-left: -90px;
         margin-top: 14px;
     }
     #my_name {
@@ -369,6 +369,7 @@ margin-left: 10px;
         color: white;
         font-size: 11px;
         margin-top: -50px;
+
     }
     .text-info > h2 {
             text-align: center;
@@ -410,7 +411,7 @@ margin-left: 10px;
     }
     .introduce {
         justify-content: flex-end;
-        padding-left: 10px ;
+        padding-left: 20px ;
 
     }
     .year-education > h5 {
