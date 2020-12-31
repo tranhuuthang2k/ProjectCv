@@ -409,18 +409,19 @@ margin-left: 10px;
         margin-left: -8px;
     }
     .introduce {
-        float: right;
-        width: 71%;
+        justify-content: flex-end;
+        padding-left: 10px ;
+
     }
     .year-education > h5 {
-        font-size: large;
         padding-right: 4px;
-        font-size: 15px;
+        font-size: 12px;
+        padding-top: 3px;
     }
     .year-experience > h5 {
         font-size: large;
         padding-right: 4px;
-        font-size: 15px;
+        font-size: 12px;
     }
     .Exp {
         margin-top: 10px;
@@ -438,7 +439,7 @@ margin-left: 10px;
         font-size: 18px;
     }
     .year-taken-project > h5 {
-        font-size: small;
+        font-size: 12px;
         padding-right: 14px;
     }
     .year-Skill > h5 {
